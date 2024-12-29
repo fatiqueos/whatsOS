@@ -7,7 +7,7 @@ Bu proje, [WhatsApp Web Plus](https://github.com/Schwartzblat/WhatsApp-Web-Plus)
 
 ## Özellikler
 
-- **Tek Gönderimlik Medya Sınırını Aşma**: Tek gönderimlik medya sınırını aşarak, daha fazla medya dosyasını aynı anda gönderebilirsiniz. Ancak, oturumdan çıkıp tekrar girdiğinizde bu özellik her seferinde yeniden etkinleştirilmelidir.
+- **Tek Gönderimlik Medya Sınırını Aşma**: Karşı tarafın size gönderdiği tek görünümdeki öğeler, normal fotoğraf ve video formatında görüntülenir. Ancak sayfayı yenilediğinizde sonraki atılan tek gönderimlik öğeler görünmez. Oturumunuzdan çıkıp tekrar girdiğinizde bu öğeler görünür hale gelir. Ayrıca, bu özellik her zaman düzgün çalışmayabilir ve görselleri veya videoları yüklemekte sorun yaşayabilirsiniz.
   
 - **Silinen Mesajları Görüntüleme**: Karşı tarafın silmiş olduğu mesajları görüntüleyerek, sohbet geçmişinizi daha iyi takip edebilirsiniz. Bu özellik, sayfa yenilendiğinde eski mesajları kaybeder ve her yenilemede bu durum geçerlidir; ancak bundan sonraki silinen mesajları göstermeye devam eder. **Silinen mesajlar, yalnızca karşı tarafın mesajları için çalışır; kendi mesajlarınızda bu özellik geçerli değildir.**
 
