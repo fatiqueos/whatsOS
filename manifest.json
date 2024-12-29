@@ -1,7 +1,7 @@
 {
-  "name": "WhatsApp-Web-Plus",
-  "version": "1.1.4",
-  "description": "",
+  "name": "whatsOS?",
+  "version": "1.0",
+  "description": "WhatsApp Web için bu eklenti, tek gönderimlik medya sınırını aşmanıza, silinen ve düzenlenen mesajları görmenize ve karşı tarafın işletim sistemini görüntülemenize olanak tanır. Kullanımı kolay arayüzü ile sohbetlerinizi daha etkili bir şekilde yönetmenizi sağlar.",
   "permissions": [
     "storage"
   ],

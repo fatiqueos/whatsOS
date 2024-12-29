@@ -34,7 +34,7 @@ class EditMessageHook extends Hook {
     static handle_edited_message() {
         const message = arguments[0];
         message.type = 'chat';
-        message.body = `✏️ This message was edited to: ${message?.body || message?.caption}`;
+        message.body = `✏️ Bu mesaj şu şekilde düzenlenmiştir: ${message?.body || message?.caption}`;
         if (!message.protocolMessageKey) {
             return true;
         }

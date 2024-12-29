@@ -1,11 +1,8 @@
 const settings_toggles = {
-    'view_once_media': 'View once bypass',
-    'keep_revoked_messages': 'Keep revoked messages',
-    'keep_edited_messages': 'Keep edited messages',
-    'indicate_sender_os': 'Indicate sender OS',
-    'special_tags': 'Special tags',
-    'blue_ticks': 'Send blue ticks',
-    'fullscreen': 'Fullscreen'
+    'view_once_media': 'Tek Görüntülenme Sınırını Aş',
+    'keep_revoked_messages': 'Silinen Mesajları Koru',
+    'keep_edited_messages': 'Düzenlenen Mesajları Koru',
+    'indicate_sender_os': 'İşletim Sistemini Göster'
 };
 
 let active_settings = Object.fromEntries(Object.keys(settings_toggles).map(key => [key, true]));
@@ -20,8 +17,28 @@ const add_setting_toggle = (setting_key, title) => {
     item.setAttribute('class', 'setting-item');
 
     const label = document.createElement('label');
-    label.setAttribute('for', setting_key);
-    label.textContent = title;
+    if (setting_key === 'view_once_media') {
+        label.textContent = title;
+        label.style.fontSize = "14px"
+        label.style.width = "84%"
+        label.style.textAlign = "left"
+        label.style.float = "left"
+
+        const warningLink = document.createElement('a');
+        warningLink.setAttribute('href', 'https://sourceb.in/VcLbdVH7XQ');
+        warningLink.setAttribute('target', '_blank');
+        warningLink.style.fontSize = '12px';
+        warningLink.style.color = '#aaa';
+        warningLink.textContent = "(Bozuksa düzeltmek için tıkla)";
+        warningLink.style.width = "84%"
+        warningLink.style.textAlign = "center"
+        warningLink.style.float = "left"
+        label.appendChild(warningLink);
+    } else {
+        label.setAttribute('for', setting_key);
+        label.textContent = title;
+        label.style.fontSize = "14px"
+    }
     item.appendChild(label);
 
     const toggle_switch = document.createElement('div');
@@ -42,7 +59,6 @@ const add_setting_toggle = (setting_key, title) => {
     item.appendChild(toggle_switch);
     return item;
 };
-
 
 const settings_section = document.getElementById('settings_section');
 
