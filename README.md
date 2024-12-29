@@ -2,7 +2,7 @@
 
 Bu proje, [WhatsApp Web Plus](https://github.com/Schwartzblat/WhatsApp-Web-Plus) eklentisinin forku olup, gereksiz özellikler kaldırılmış ve Türkçeleştirilmiştir. Kullanıcıların WhatsApp Web deneyimini geliştirmek için çeşitli işlevler sunmaktadır.
 
-![Eklentinin Menü Görünümü](![image](https://github.com/user-attachments/assets/a1b9d5e5-7c42-46dc-af9e-014ca265c4b5)
+![Eklentinin Menü Görünümü](https://autumn.revolt.chat/attachments/G7E8DpgLsTQ3MpqtXqBYBdNlKM6U_13UKMNJ3wgCaW/image.png)
 )
 
 ## Özellikler
